@@ -1,0 +1,143 @@
+body {
+    background-image: url("../img/background4.jpg");
+    background-size: 100vh;
+}
+
+
+/*-------CONTAINER PRINCIPAL-----------------*/
+.bg__total {
+    display: flex;
+    height: 100%;
+}
+
+
+/*-------CONTAINER CONTEÚDO-----------------*/
+.conteudo_central {
+    position: absolute;
+    top: 0; bottom: 0;
+    left: 0; right: 0;
+    margin: auto;
+    width: 650px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/*-------LOGO-------------------------------*/
+.logo {
+    text-align: center;
+}
+
+
+/*-------PLANTAS----------------------------*/
+.plantas__bg {
+    background-image: url("../img/plantas-fundo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 222px;
+    padding-top: 58px;
+}
+
+
+/*-------TEXTOS-----------------------------*/
+h2 {
+    font-family: merriweather, serif;
+    font-size: 16pt;
+    font-weight: 300;
+    color: #fff8e6;
+    text-align: center;
+}
+
+h3 {
+    font-family: roboto, sans-serif;
+    font-size: 12pt;
+    font-weight: 400;
+    line-height: 19pt;
+    margin-top: -5px;
+    text-align: center;
+}
+
+
+/*-------BARRA DE PROGRESSO------------------*/
+.img__barra-progresso {
+    margin-top: -50px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+
+/*-------BOTÃO-------------------------------*/
+.btn {
+    max-width: 645px;
+    padding-top: 100px;
+    margin: 0 auto;
+}
+
+.btn__whatsapp {
+    color: #fff8e6;
+    background: #30c137;
+    background-image: url("../img/whatsapp.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    border: 0;
+    border-radius: 9px;
+    text-align: center;
+    user-select: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 95px;
+    padding-right: 50px;
+    text-decoration: none;
+    font-family: roboto, sans-serif;
+    font-weight: bold;
+    font-size: 16pt;
+
+}
+
+
+/*----------------------------------------------------
+---------RESPONSIVIDADE-------------------------------
+-----------------------------------------------------*/
+
+@media (max-width: 520px) and (min-width: 450px) {
+    .conteudo_central {
+        width: 100%;
+    }
+}
+
+@media (max-width: 450px) {
+    .conteudo_central {
+        width: 100%;
+    }
+    .img__logo {
+        width: 250px;
+    }
+    .logo {
+        padding-top: 90px;
+    }
+    .plantas__bg {
+       background-size: 500px;
+       padding-top: 30px;
+    }
+    h2 {
+        font-size: 13pt;
+        margin-top: 46px;
+    }
+    h3 {
+        font-size: 10pt;
+        line-height: 15pt;
+    }
+    .barra-progresso {
+        width: 80%;
+    }
+    .btn {
+        padding-top: 50px;
+        margin-top: 0px;
+    }
+    .btn__whatsapp {
+        font-size: 12pt;
+        background-size: ;
+    }
+}
