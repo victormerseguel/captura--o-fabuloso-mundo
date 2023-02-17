@@ -230,8 +230,10 @@ display: flex;
         border-radius: 5px;
         text-align: center;
         user-select: none;
-        width: 200px;
-        height: 50px;
+        padding: 10px 50px;
+        text-decoration: none;
+        font-family: roboto, sans-serif;
+        font-weight: bold;
 
     }
 
@@ -240,14 +242,6 @@ display: flex;
         transition: background 0.5s;
     }
 
-    .btn2 a{
-        width: 315px;
-        height: 51px;
-        text-decoration: none;
-        color: #fff8e6;
-        font-family: roboto, sans-serif;
-        font-weight: 500;
-    }
 
 /*--------------------------------------------------------
 ---------- FOOTER ----------------------------------------
