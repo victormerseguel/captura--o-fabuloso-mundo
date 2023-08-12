@@ -1,0 +1,1 @@
+This project was created in a self-taught way, both the design and the code. At first it was created in html and CSS but later it was incorporated into another project, created by third parties in React.js.
